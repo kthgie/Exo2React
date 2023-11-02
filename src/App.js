@@ -35,7 +35,7 @@ const WeatherComponent = () => {
           <p>Température: {(weatherData.main.temp)}°</p>
           <p>Description météo: {weatherData.weather[0].description}</p>
           <img
-            src="https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png"
+            src={`https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`}
             alt="Weather Icon"
           />
         </div>

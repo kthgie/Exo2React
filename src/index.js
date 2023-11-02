@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MeteoPrev from "./MeteoPrev";
+import GeolocalisationPrev from "./GeolocalisationPrev";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <GeolocalisationPrev />
     <MeteoPrev />
   </React.StrictMode>
 );
